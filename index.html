@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Marina Valente - Fisioterapia individualizada para recuperar movimentos, aliviar limitações e ajudar você a viver sua rotina com mais confiança e autonomia.">
+    <meta name="theme-color" content="#687464">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Marina Valente | Fisioterapia">
+    <meta property="og:description" content="Movimento é liberdade. Cuidar dele transforma sua rotina.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://marinavalente.com">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://marinavalente.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-family='serif' fill='%23687464'>M</text></svg>">
+    
+    <title>Marina Valente | Fisioterapia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 2C16 2 10 8 10 14C10 18.4 12.9 22 16 22C19.1 22 22 18.4 22 14C22 8 16 2 16 2Z" stroke="#687464" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 22V28" stroke="#687464" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="16" cy="30" r="1.5" fill="#687464"/>
+                </svg>
+                <div>
+                    <div class="logo-name">Marina Valente</div>
+                    <div class="logo-subtitle">Fisioterapia</div>
+                </div>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="nav">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#tratamentos">Tratamentos</a>
+                <a href="#como-funciona">Como funciona</a>
+                <a href="#espaco">Espaço</a>
+                <a href="#faq">Dúvidas</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <button class="cta-header" onclick="document.getElementById('contato').scrollIntoView({ behavior: 'smooth' })">Agendar</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="tag">MOVIMENTO • CUIDADO • QUALIDADE DE VIDA</div>
+            <h1>Movimento é liberdade. Cuidar dele transforma sua rotina.</h1>
+            <p class="hero-description">Fisioterapia individualizada para recuperar movimentos, aliviar limitações e ajudar você a viver sua rotina com mais confiança e autonomia.</p>
+            
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('contato').scrollIntoView({ behavior: 'smooth' })">Agendar Avaliação</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('como-funciona').scrollIntoView({ behavior: 'smooth' })">Conhecer o Atendimento</button>
+            </div>
+
+            <div class="hero-info">
+                <div class="info-item">✓ Atendimento individualizado</div>
+                <div class="info-item">✓ Avaliação personalizada</div>
+                <div class="info-item">✓ Acompanhamento próximo</div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 600'%3E%3Crect width='500' height='600' fill='%23F8F7F3'/%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23DED7CA;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23A7B5A0;stop-opacity:0.3' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='500' height='600' fill='url(%23grad)'/%3E%3Ctext x='250' y='300' font-size='80' font-family='serif' fill='%23A7B5A0' text-anchor='middle' opacity='0.3'%3EMV%3C/text%3E%3C/svg%3E" alt="Marina Valente em atendimento" loading="lazy" width="500" height="600">
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section sobre" id="sobre">
+        <div class="tag">SOBRE</div>
+        <h2>Cuidar do movimento é cuidar da sua autonomia.</h2>
+        
+        <div class="sobre-content">
+            <div class="sobre-text">
+                <p>Cada pessoa possui uma rotina, uma história e necessidades diferentes.</p>
+                <p>Por isso, o atendimento começa com uma avaliação individualizada para compreender suas limitações, movimentos e objetivos.</p>
+                <p>A partir dessa avaliação, o acompanhamento é conduzido de forma personalizada, respeitando cada etapa do processo.</p>
+            </div>
+
+            <div class="sobre-highlights">
+                <div class="highlight">
+                    <h3>Escuta</h3>
+                    <p>Entender sua rotina e suas necessidades antes de iniciar o acompanhamento.</p>
+                </div>
+                <div class="highlight">
+                    <h3>Movimento</h3>
+                    <p>Trabalhar movimentos de maneira progressiva e individualizada.</p>
+                </div>
+                <div class="highlight">
+                    <h3>Acompanhamento</h3>
+                    <p>Observar a evolução e adaptar o atendimento quando necessário.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-secondary" style="margin-top: 2rem;">Conheça minha abordagem</button>
+    </section>
+
+    <!-- Tratamentos -->
+    <section class="section tratamentos" id="tratamentos">
+        <div class="tag">ATENDIMENTOS</div>
+        <h2>Fisioterapia para diferentes momentos da sua rotina.</h2>
+        <p class="section-description">Avaliação e acompanhamento individualizados de acordo com as necessidades de cada paciente.</p>
+
+        <div class="tratamentos-grid">
+            <div class="tratamento-card">
+                <h3>Fisioterapia Ortopédica</h3>
+                <p>Acompanhamento de alterações relacionadas ao sistema musculoesquelético e ao movimento.</p>
+            </div>
+            <div class="tratamento-card">
+                <h3>Reabilitação Funcional</h3>
+                <p>Estratégias voltadas à recuperação progressiva de movimentos e atividades da rotina.</p>
+            </div>
+            <div class="tratamento-card">
+                <h3>Prevenção de Lesões</h3>
+                <p>Avaliação de movimentos e acompanhamento preventivo de acordo com cada perfil.</p>
+            </div>
+            <div class="tratamento-card">
+                <h3>Mobilidade</h3>
+                <p>Trabalho direcionado à amplitude de movimento, funcionalidade e autonomia.</p>
+            </div>
+            <div class="tratamento-card">
+                <h3>Fisioterapia Esportiva</h3>
+                <p>Acompanhamento direcionado às necessidades de pessoas fisicamente ativas.</p>
+            </div>
+            <div class="tratamento-card">
+                <h3>Pós-operatório</h3>
+                <p>Acompanhamento fisioterapêutico de acordo com orientação e necessidades individuais após procedimentos.</p>
+            </div>
+        </div>
+
+        <button class="btn btn-secondary" style="margin-top: 2rem;">Ver formas de atendimento</button>
+    </section>
+
+    <!-- Como Funciona -->
+    <section class="section como-funciona" id="como-funciona">
+        <div class="tag">SEU ATENDIMENTO</div>
+        <h2>Um processo pensado para entender você primeiro.</h2>
+
+        <div class="steps-grid">
+            <div class="step">
+                <div class="step-number">01</div>
+                <h3>Avaliação</h3>
+                <p>Conversamos sobre sua rotina, histórico, movimentos e principais necessidades.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">02</div>
+                <h3>Planejamento</h3>
+                <p>O acompanhamento é organizado de acordo com os objetivos identificados durante a avaliação.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">03</div>
+                <h3>Atendimento</h3>
+                <p>As sessões são conduzidas de maneira individualizada e progressiva.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">04</div>
+                <h3>Acompanhamento</h3>
+                <p>A evolução é observada durante o processo para orientar os próximos passos.</p>
+            </div>
+        </div>
+
+        <button class="btn btn-primary" style="margin-top: 2rem;">Agendar minha avaliação</button>
+    </section>
+
+    <!-- Seção Visual Movimento -->
+    <section class="section movimento-visual">
+        <div class="movimento-content">
+            <div class="movimento-image">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 500'%3E%3Crect width='400' height='500' fill='%23A7B5A0'/%3E%3Ctext x='200' y='250' font-size='60' font-family='serif' fill='%23F8F7F3' text-anchor='middle' opacity='0.4'%3EMovimento%3C/text%3E%3C/svg%3E" alt="Movimento corporal" loading="lazy" width="400" height="500">
+            </div>
+            <div class="movimento-text">
+                <h2>Seu corpo foi feito para se movimentar.</h2>
+                <p>Pequenas limitações podem transformar atividades simples da rotina em desafios.</p>
+                <p>A fisioterapia busca compreender essas dificuldades e trabalhar o movimento de forma individualizada, respeitando seu momento e suas necessidades.</p>
+                <button class="btn btn-secondary">Quero cuidar do meu movimento</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Espaço -->
+    <section class="section espaco" id="espaco">
+        <div class="tag">NOSSO ESPAÇO</div>
+        <h2>Um ambiente preparado para o seu cuidado.</h2>
+        <p class="section-description">Um espaço tranquilo, moderno e funcional para proporcionar conforto durante cada etapa do atendimento.</p>
+
+        <div class="espaco-grid">
+            <div class="espaco-item">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 250'%3E%3Crect width='300' height='250' fill='%23DED7CA'/%3E%3Ctext x='150' y='125' font-size='40' text-anchor='middle' fill='%23A7B5A0' opacity='0.5'%3E🏥%3C/text%3E%3C/svg%3E" alt="Sala de atendimento" loading="lazy" width="300" height="250">
+                <h3>Sala de atendimento</h3>
+            </div>
+            <div class="espaco-item">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 250'%3E%3Crect width='300' height='250' fill='%23DED7CA'/%3E%3Ctext x='150' y='125' font-size='40' text-anchor='middle' fill='%23A7B5A0' opacity='0.5'%3E🤸%3C/text%3E%3C/svg%3E" alt="Espaço de exercícios" loading="lazy" width="300" height="250">
+                <h3>Espaço de exercícios</h3>
+            </div>
+            <div class="espaco-item">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 250'%3E%3Crect width='300' height='250' fill='%23DED7CA'/%3E%3Ctext x='150' y='125' font-size='40' text-anchor='middle' fill='%23A7B5A0' opacity='0.5'%3E📋%3C/text%3E%3C/svg%3E" alt="Área de avaliação" loading="lazy" width="300" height="250">
+                <h3>Área de avaliação</h3>
+            </div>
+            <div class="espaco-item">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 250'%3E%3Crect width='300' height='250' fill='%23DED7CA'/%3E%3Ctext x='150' y='125' font-size='40' text-anchor='middle' fill='%23A7B5A0' opacity='0.5'%3E🪑%3C/text%3E%3C/svg%3E" alt="Recepção" loading="lazy" width="300" height="250">
+                <h3>Recepção</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="section diferenciais">
+        <div class="tag">CUIDADO INDIVIDUAL</div>
+        <h2>Cada movimento conta.</h2>
+
+        <div class="diferenciais-grid">
+            <div class="diferencial">
+                <h3>Avaliação Individualizada</h3>
+                <p>O atendimento começa entendendo suas necessidades.</p>
+            </div>
+            <div class="diferencial">
+                <h3>Plano Personalizado</h3>
+                <p>O acompanhamento é organizado de acordo com cada paciente.</p>
+            </div>
+            <div class="diferencial">
+                <h3>Acompanhamento Próximo</h3>
+                <p>A evolução é observada durante todo o processo.</p>
+            </div>
+            <div class="diferencial">
+                <h3>Atendimento Humanizado</h3>
+                <p>Tempo para conversar, compreender e orientar.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social -->
+    <section class="section prova-social">
+        <div class="tag">EXPERIÊNCIA</div>
+        <h2>A experiência também faz parte do cuidado.</h2>
+
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <p class="testimonial-text">"Me senti muito acolhida durante todo o acompanhamento."</p>
+                <p class="testimonial-label">Depoimento demonstrativo</p>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial-text">"O atendimento foi organizado e todas as etapas foram explicadas com clareza."</p>
+                <p class="testimonial-label">Depoimento demonstrativo</p>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial-text">"Um espaço tranquilo e um atendimento muito atencioso."</p>
+                <p class="testimonial-label">Depoimento demonstrativo</p>
+            </div>
+        </div>
+
+        <p class="prova-social-note">Conteúdo ilustrativo utilizado exclusivamente para demonstração deste projeto.</p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+        <div class="tag">DÚVIDAS FREQUENTES</div>
+        <h2>Antes da sua primeira avaliação.</h2>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Como funciona a primeira avaliação?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>O primeiro encontro é utilizado para compreender seu histórico, rotina, movimentos e necessidades antes da definição do acompanhamento.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Preciso de encaminhamento médico?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>A necessidade de encaminhamento pode variar conforme o caso e a modalidade de atendimento. Entre em contato para receber orientações.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Quanto tempo dura uma sessão?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>O tempo pode variar conforme o tipo de atendimento e as necessidades identificadas na avaliação.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Como faço para agendar?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Você pode solicitar um horário diretamente pelo WhatsApp.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>O atendimento é individual?</span>
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Neste modelo, o atendimento é apresentado como individualizado e organizado conforme as necessidades de cada paciente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="section cta-final">
+        <div class="tag">COMECE PELO PRIMEIRO MOVIMENTO</div>
+        <h2>Seu movimento merece atenção.</h2>
+        <p>Agende uma avaliação e conheça uma proposta de acompanhamento pensada para suas necessidades.</p>
+        
+        <div class="cta-final-buttons">
+            <button class="btn btn-light" onclick="document.getElementById('contato').scrollIntoView({ behavior: 'smooth' })">Agendar Avaliação</button>
+            <a href="https://wa.me/554800000000?text=Olá%2C%20gostaria%20de%20agendar%20uma%20avaliação%20com%20Marina%20Valente" class="btn btn-light" target="_blank">Falar pelo WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section contato" id="contato">
+        <div class="tag">CONTATO</div>
+        <h2>Vamos conversar?</h2>
+        <p class="section-description">Entre em contato para informações sobre atendimento e horários disponíveis.</p>
+
+        <div class="contato-info">
+            <div class="contato-header">
+                <h3>Marina Valente</h3>
+                <p>Fisioterapia</p>
+            </div>
+
+            <div class="contato-grid">
+                <div class="contato-item">
+                    <h4>WhatsApp</h4>
+                    <a href="https://wa.me/554800000000" target="_blank">(48) 00000-0000</a>
+                </div>
+                <div class="contato-item">
+                    <h4>E-mail</h4>
+                    <p>contato demonstrativo</p>
+                </div>
+                <div class="contato-item">
+                    <h4>Horários</h4>
+                    <p>Segunda a sexta<br>08h às 19h</p>
+                </div>
+                <div class="contato-item">
+                    <h4>Local</h4>
+                    <p>Endereço demonstrativo<br>Santa Catarina</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Marina Valente</h3>
+                <p>Fisioterapia</p>
+                <p class="footer-tagline">Movimento, cuidado e qualidade de vida.</p>
+            </div>
+
+            <nav class="footer-nav">
+                <a href="#sobre">Sobre</a>
+                <a href="#tratamentos">Atendimentos</a>
+                <a href="#espaco">Espaço</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <div class="footer-bottom">
+                <p>© 2026 Marina Valente — Fisioterapia.</p>
+                <p class="footer-disclaimer">Projeto demonstrativo. Profissional, registros, imagens, endereço, avaliações e informações apresentados neste site são fictícios.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/554800000000?text=Olá%2C%20gostaria%20de%20agendar%20uma%20avaliação%20com%20Marina%20Valente" class="whatsapp-button" target="_blank" aria-label="Abrir WhatsApp">
+        <span class="whatsapp-icon">💬</span>
+        <span class="whatsapp-text">Agendar</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
